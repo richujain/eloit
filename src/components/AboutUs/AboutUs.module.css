@@ -35,7 +35,32 @@
   margin: 0;
   padding: 0;
 }
-@media (max-width: 69em) {
+
+@media (max-width: 85em) {
+  .aboutUsContainer {
+    margin: 2rem;
+  }
+  .listContainer {
+    gap: 1rem;
+  }
+  .employeeImage {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+@media (max-width: 75em) {
+  .aboutUsContainer {
+    margin: 2rem;
+  }
+  .listContainer {
+    gap: 1rem;
+  }
+  .employeeImage {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+}
+@media (max-width: 55em) {
   .aboutUsContainer {
     margin: 2rem;
   }
@@ -47,15 +72,28 @@
     width: 5rem;
   }
 }
-@media (max-width: 50em) {
-  .employeeImage {
-    height: 10rem;
-    width: 10rem;
-  }
+@media (max-width: 53em) {
   .aboutUsContainer {
     margin: 2rem;
   }
   .listContainer {
+    gap: 0.5rem;
+  }
+  .employeeImage {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+@media (max-width: 48em) {
+  .aboutUsContainer {
+    margin: 2rem;
+  }
+  .listContainer {
+    gap: 0.5rem;
     flex-direction: column;
+  }
+  .employeeImage {
+    height: 10rem;
+    width: 10rem;
   }
 }
