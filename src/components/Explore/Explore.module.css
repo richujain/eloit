@@ -1,0 +1,7 @@
+.exploreContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--secondary-color);
+  width: 80%;
+  align-self: center;
+}

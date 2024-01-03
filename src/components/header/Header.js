@@ -32,12 +32,14 @@ export default function Header() {
           }}
         >
           <div className={classes.subHeaderMenu}>
-            <img
-              className={classes.logo}
-              src={require("../../assets/images/logo.webp")}
-              alt="Logo"
-            />
-            <h5>ELOIT</h5>
+            <div>
+              <img
+                className={classes.logo}
+                src={require("../../assets/images/logo.webp")}
+                alt="Logo"
+              />
+              <h5 style={{ padding: 0, margin: 0 }}>ELOIT</h5>
+            </div>
           </div>
           <h3 className={classes.title}>Eloit Global School</h3>
         </div>
