@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #181059;
+  --secondary-color: #0077ce;
+}
 html,
 body {
   min-height: 100%;

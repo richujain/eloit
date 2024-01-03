@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 2rem;
-  background-color: #181059;
+  background-color: var(--primary-color);
   height: 1rem;
   padding: 0.25rem;
 }
@@ -62,7 +62,7 @@
 .title {
   font-weight: 600;
   margin: 0rem 1rem;
-  color: #181059;
+  color: var(--primary-color);
 }
 .headerMenuItems {
   font-weight: 500;
@@ -71,7 +71,7 @@
 }
 .headerMenuItems:hover,
 .headerBarItems:active {
-  color: #0077ce;
+  color: var(--secondary-color);
   transform: scale(1.05);
   cursor: pointer;
 }
