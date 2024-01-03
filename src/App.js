@@ -10,7 +10,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Banner />
-      {/* <Explore /> */}
+      <Explore />
       <AboutUs />
     </React.Fragment>
   );

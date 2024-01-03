@@ -76,6 +76,9 @@
 }
 @media (max-width: 60em) {
   .headerMenu {
+    display: none;
+  }
+  .subHeaderBar:first-child {
     visibility: hidden;
   }
 }
