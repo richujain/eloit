@@ -1,0 +1,61 @@
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 20rem;
+}
+
+.title {
+  color: #0077ce;
+  font-weight: 600;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.individualEmployeeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.employeeImage {
+  height: 10rem;
+  width: 10rem;
+}
+
+.employeeText {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 69em) {
+  .aboutUsContainer {
+    margin: 2rem;
+  }
+  .listContainer {
+    gap: 1rem;
+  }
+  .employeeImage {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+@media (max-width: 50em) {
+  .employeeImage {
+    height: 10rem;
+    width: 10rem;
+  }
+  .aboutUsContainer {
+    margin: 2rem;
+  }
+  .listContainer {
+    flex-direction: column;
+  }
+}
