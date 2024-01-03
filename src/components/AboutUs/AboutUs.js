@@ -18,8 +18,7 @@ export default function AboutUs() {
     fetchEmployees().then((response) => {
       const filteredEmployeeData = response.results.map((employee) => {
         return {
-          fullName:
-            `${employee.user.name.first}` + ` ${employee.user.name.last}`,
+          fullName: `${employee.user.name.first} ${employee.user.name.last}`,
           image: employee.user.picture.large,
           email: employee.user.email,
           cell: employee.user.cell,
