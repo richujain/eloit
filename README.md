@@ -2,4 +2,4 @@
 
 ## A sample project
 
-- Fetching random user data from API (randomuser.me) and displaying it as employees
+- Fetching random user data from API (randomuser.me) and displaying it.
