@@ -26,6 +26,7 @@
 .employeeImage {
   height: 10rem;
   width: 10rem;
+  border-radius: 100px;
 }
 
 .employeeText {

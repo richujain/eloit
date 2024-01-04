@@ -44,7 +44,10 @@ export default function AboutUs() {
                 alt="Employee"
               />
               <p className={classes.employeeText}>{employee.fullName}</p>
-              <p className={classes.employeeText} style={{ fontWeight: "400" }}>
+              <p
+                className={classes.employeeText}
+                style={{ fontWeight: "400", fontSize: "0.75rem" }}
+              >
                 {employee.email}
               </p>
             </div>
