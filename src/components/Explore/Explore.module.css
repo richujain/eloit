@@ -4,6 +4,7 @@
   background-color: var(--secondary-color);
   align-self: center;
   padding: 3rem 20rem;
+  margin: 2rem 0rem;
 }
 .title {
   color: #fff;
@@ -43,6 +44,10 @@
   font-size: 0.75rem;
   padding: 0.5rem 2rem;
   border: none;
+}
+.button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 @media (max-width: 60em) {
   .exploreContainer {
